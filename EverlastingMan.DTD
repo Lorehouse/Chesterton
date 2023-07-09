@@ -1,0 +1,3 @@
+<!DOCTYPE CHAPTER [
+<!ATTLIST div1 type (Introduction|Chapter|Conclusion|Appendix) "Introduction">
+]>
