@@ -9,6 +9,12 @@
 
 <!ELEMENT stanza (#PCDATA)>
 
-<!ELEMENT p (#PCDATA|title|emph|stanza)*>
+<!ELEMENT p (#PCDATA|title|emph|stanza|verse|q)*>
 <!ELEMENT emph (#PCDATA)>
+
 <!ELEMENT title (#PCDATA)>
+<!ELEMENT verse (#PCDATA|stanza)*>
+
+<!ELEMENT stanza (#PCDATA)>
+<!ELEMENT q (#PCDATA)>
+<!ATTLIST q type (so_called|quotation) #REQUIRED>
