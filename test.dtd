@@ -1,0 +1,10 @@
+<!ELEMENT div (#PCDATA|header|p)*> 
+<!ATTLIST div 
+    part CDATA #REQUIRED 
+    type (chapter) #REQUIRED
+    n CDATA #REQUIRED>
+
+<!ELEMENT header (#PCDATA)>
+<!ATTLIST header type (chaptertitle) #IMPLIED>
+
+<!ELEMENT p (title)*>

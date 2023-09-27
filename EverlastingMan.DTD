@@ -1,3 +1,14 @@
-<!DOCTYPE CHAPTER [
-<!ATTLIST div1 type (Introduction|Chapter|Conclusion|Appendix) "Introduction">
-]>
+<!ELEMENT div (#PCDATA|header|p|stanza)*> 
+<!ATTLIST div 
+    part CDATA #REQUIRED 
+    type (chapter|conclusion) #REQUIRED
+    n CDATA #IMPLIED>
+
+<!ELEMENT header (#PCDATA)>
+<!ATTLIST header type (chaptertitle|chapternumber|partnumber|parttitle) #REQUIRED>
+
+<!ELEMENT stanza (#PCDATA)>
+
+<!ELEMENT p (#PCDATA|title|emph|stanza)*>
+<!ELEMENT emph (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
