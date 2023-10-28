@@ -1,7 +1,7 @@
 <!ELEMENT div (#PCDATA|header|p|stanza)*> 
 <!ATTLIST div 
     part CDATA #REQUIRED 
-    type (chapter|conclusion) #REQUIRED
+    type (chapter|introduction|conclusion|appendix) #REQUIRED
     n CDATA #IMPLIED>
 
 <!ELEMENT header (#PCDATA)>

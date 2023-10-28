@@ -1,0 +1,26 @@
+div{
+    margin: 5em auto;
+    max-width: 40em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p:first-of-type{
+    text-indent: 0;
+}
+
+p{
+    display: block;
+    margin-bottom: 1em;
+    text-indent: 1.5em;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+header{
+    display: block;
+    margin-bottom: 2em;
+    text-align: center;
+    letter-spacing: .05ch;
+    color: maroon
+}
