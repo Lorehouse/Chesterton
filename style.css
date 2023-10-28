@@ -17,6 +17,10 @@ p{
 
 }
 
+emph{
+    font-style: italic;
+}
+
 header{
     display: block;
     margin-bottom: 2em;
