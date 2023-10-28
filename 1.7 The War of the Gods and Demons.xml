@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="1" type="chapter" n="7">
     <header type="chapternumber">CHAPTER VII</header> 
     <header  type="chaptertitle">THE WAR OF THE GODS AND DEMONS</header>

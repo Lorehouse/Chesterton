@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?> 
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="2" type="chapter" n="6"> 
     <header type="chapternumber"> CHAPTER VI  </header>
     <header type="chaptertitle">THE FIVE DEATHS OF THE FAITH  </header>

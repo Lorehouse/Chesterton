@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="2" type="chapter" n="3">
   <header type="chapternumber">CHAPTER III </header>
   <header type="chaptertitle">STRANGEST STORY IN THE WORLD </header> 

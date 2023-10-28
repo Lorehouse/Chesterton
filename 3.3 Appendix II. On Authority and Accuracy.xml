@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?> 
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="3" type="appendix" n="2"> 
     <header type="partnumber">APPENDIX II</header>
     <header type="parttitle">ON AUTHORITY AND ACCURACY</header> 

@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="2" type="chapter" n="2">
     <header type="chapternumber">CHAPTER headerI</header>
     <header type="chaptertitle">THE RIDDLES OF THE GOSPEL</header>

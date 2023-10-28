@@ -1,4 +1,5 @@
 <?xml-model href="everlastingman.dtd"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <div part="1" type="chapter" n="8"> 
     <header type="chapternumber">CHAPTER VIII</header>
     <header type="chaptertitle">THE END OF THE WORLD</header>
