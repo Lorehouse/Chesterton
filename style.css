@@ -21,6 +21,14 @@ emph{
     font-style: italic;
 }
 
+foreign{
+    font-style: italic;
+}
+
+title{
+    font-style: italic;
+}
+
 header{
     display: block;
     margin-bottom: 2em;

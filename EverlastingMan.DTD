@@ -9,8 +9,9 @@
 
 <!ELEMENT stanza (#PCDATA)>
 
-<!ELEMENT p (#PCDATA|title|emph|stanza|verse|q)*>
+<!ELEMENT p (#PCDATA|title|emph|stanza|verse|q|foreign)*>
 <!ELEMENT emph (#PCDATA)>
+<!ELEMENT foreign (#PCDATA)>
 
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT verse (#PCDATA|stanza)*>
