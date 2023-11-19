@@ -12,6 +12,8 @@
 <!ELEMENT p (#PCDATA|title|emph|stanza|verse|q|foreign)*>
 <!ELEMENT emph (#PCDATA)>
 <!ELEMENT foreign (#PCDATA)>
+<!ELEMENT q (#PCDATA)>
+<!ATTLIST q type (so_called|quotation|title|speech) #REQUIRED>
 
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT verse (#PCDATA|stanza)*>
