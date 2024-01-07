@@ -8,6 +8,14 @@ p:first-of-type{
     text-indent: 0;
 }
 
+p:first-of-type::first-letter {
+    color: burgundy;
+    padding: 0.2rem;
+    font-size: 5.5em;
+    float: left;
+    line-height: 0.7;
+}
+
 p{
     display: block;
     margin-bottom: 1em;
@@ -34,5 +42,6 @@ header{
     margin-bottom: 2em;
     text-align: center;
     letter-spacing: .05ch;
+    font-weight: bold;
     color: maroon
 }
