@@ -1,3 +1,5 @@
+<!ELEMENT text (#PCDATA|div|title)*>
+
 <!ELEMENT div (#PCDATA|header|p|stanza)*> 
 <!ATTLIST div 
     part CDATA #REQUIRED 
