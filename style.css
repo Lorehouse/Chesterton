@@ -11,7 +11,7 @@ div {
     margin: 5em auto;
 }
 
-title {
+main {
     font-size: large;
     letter-spacing: .05ch;
     font-weight: bold;
@@ -41,6 +41,10 @@ p {
 
 }
 
+title {
+    font-style:italic
+}
+
 emph {
     font-style: italic;
 }
@@ -60,4 +64,12 @@ header {
     letter-spacing: .05ch;
     font-weight: bold;
     color: maroon
+}
+
+header.partnumber {
+    margin-bottom: 1em;
+}
+
+header.chapternumber {
+    margin-bottom: 1em;
 }

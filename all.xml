@@ -1,7 +1,7 @@
 <?xml-model href="everlastingman.dtd" ?>
 <?xml-stylesheet href="style.css" type="text/css"?>
 <text>
-    <title>THE EVERLASTING MAN</title>
+    <main>THE EVERLASTING MAN</main>
     <div part="1" type="introduction" n="0">
         <header type="parttitle">INTRODUCTION</header>
         <header type="chaptertitle">THE PLAN OF THIS BOOK</header>

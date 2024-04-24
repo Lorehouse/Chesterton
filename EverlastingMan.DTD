@@ -1,4 +1,4 @@
-<!ELEMENT text (#PCDATA|div|title)*>
+<!ELEMENT text (#PCDATA|div|main)*>
 
 <!ELEMENT div (#PCDATA|header|p|stanza)*> 
 <!ATTLIST div 
@@ -6,6 +6,7 @@
     type (chapter|introduction|conclusion|appendix) #REQUIRED
     n CDATA #IMPLIED>
 
+<!ELEMENT main (#PCDATA)>
 <!ELEMENT header (#PCDATA)>
 <!ATTLIST header type (chaptertitle|chapternumber|partnumber|parttitle) #REQUIRED>
 
